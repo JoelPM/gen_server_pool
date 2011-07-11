@@ -1,0 +1,14 @@
+{application, gen_server_pool,
+ [
+  {description, ""},
+  {vsn, "1.0.0"},
+  {modules, [gen_server_pool]},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { gen_server_pool_app, []}},
+  {env, []}
+ ]}.
+

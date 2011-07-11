@@ -1,0 +1,14 @@
+gen_server_pool
+
+A library for pooling gen_servers. The goal is to make it as easy as possible
+to create a pool of gen_servers. The API is the same as gen_server but with an
+extra argument that is a list of properties for the pool.
+
+Dependencies
+. rebar
+. make
+
+Build
+To build the gen_server_pool library just run make.
+$ make
+
